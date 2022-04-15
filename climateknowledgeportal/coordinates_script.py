@@ -25,3 +25,11 @@ df["location"] = df["name"].apply(geocode)
 
 df
 
+#CRIANDO UM MAPA
+
+import folium
+
+m = folium.Map(location=[0, 0]) #INSIRA AS CORRDENADAS DESEJADAS ENTRE AS CHAVES
+
+m
+
