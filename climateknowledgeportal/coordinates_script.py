@@ -1,4 +1,13 @@
-#RUN IN VSCODE/JUPYTER
+#1.0 DOWNLOAD DE LIBRARIES IN COMMAND PROMPT
+#1.1 TYPE: pip install pandas
+#1.2 TYPE: pip install geopy
+#1.3 TYPE: pip install folium
+
+#2.0 DOWNLOAD VSCODE/JUPYTER
+#2.1 COPY 
+#2.2 PASTE
+#2.3 RUN IN VSCODE/JUPYTER
+#ENJOY
 
 import pandas as pd
 
