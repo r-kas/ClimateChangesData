@@ -23,5 +23,5 @@ geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
 df["location"] = df["name"].apply(geocode)
 
-print(df)
+df
 
