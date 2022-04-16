@@ -20,6 +20,17 @@ pd.set_option('display.max_colwidth', -1)
 #UMA LISTA QUALQUER, PODEM SER OUTROS ENDEREÇOS ESPECÍFICOS 
 lista ={"name":["Sergipe", "Tocantins", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão","Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do Sul", "Rondônia", "Acre", "Roraima", "Alagoas", "Santa Catarina", "Amapá", "São Paulo", "Amazonas", "Bahia"]};
 
+#TO A SPECIFIC ADDRESS:
+#1. from geopy.geocoders import Nominatim#
+
+#2. end = "1.número', 2.rua', 3.cidade";#
+
+#3. geolocator = Nominatim(user_agent="MyGeocoder")#
+
+#4. location = geolocator.geocode(end)#
+
+#5. print(location.address)#
+
 df = pd.DataFrame(lista)
 
 from geopy.geocoders import Nominatim
