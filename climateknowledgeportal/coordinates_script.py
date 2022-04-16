@@ -55,5 +55,11 @@ import folium
 
 m = folium.Map(location=[0, 0], zoom_start=11) #INSIRA AS COORDENADAS DESEJADAS ENTRE AS CHAVES
 
+
+folium.Marker(location=[0, 0],
+              popup='casa',
+              icon=folium.Icon(color='red', icon='info-sign')).add_to(m)
 m
+
+
 
